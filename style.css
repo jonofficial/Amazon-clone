@@ -186,6 +186,7 @@ span{
     margin-top: 10px;
 }
 .hero-msg a{
+    text-decoration: none;
     color: #007185;
 
 }
@@ -222,6 +223,7 @@ span{
 }
 
 .box-content a{
+    text-decoration: none;
     color: #007185;
 }
 
