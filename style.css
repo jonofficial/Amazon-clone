@@ -194,11 +194,16 @@ span{
 /* shop-section */
 
 .box{
+    transition: transform 0.5s ease;
     height: 400px;
     width: 23%;
     background-color: white;
     padding: 20px 0px 15px;
     margin-top: 15px;
+}
+
+.box:hover{
+    transform: scale(1.1);
 }
 
 .shop-section{
@@ -242,6 +247,11 @@ span{
     align-items: center;
     font-size: 0.85rem;
     margin-top: 2px;
+}
+
+.foot-panel1 a{
+    color: #fff;
+    text-decoration: none;
 }
 
 .foot-panel2{
